@@ -1,0 +1,11 @@
+name: My Team
+
+on: workflow_dispatch
+
+jobs:
+  first-job:
+      runs-on: ubuntu-latest
+      
+      steps: 
+        - name: Run echo Symon Barreto, David Menezes!
+          run: echo Symon Barreto, David Menezes!
